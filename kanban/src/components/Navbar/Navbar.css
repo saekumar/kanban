@@ -1,0 +1,40 @@
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  height: 40px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-icon {
+  margin-left: 30px;
+}
+
+.dropdown-content {
+  top: 10%;
+  left: 30px;
+  margin-top: 5px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
